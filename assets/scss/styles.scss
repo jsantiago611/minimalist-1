@@ -1,14 +1,30 @@
+@font-face {
+  font-family: 'SuisseWorks';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/SuisseWorks-Regular-WebS.woff2') format('woff2'), 
+}
+@font-face {
+  font-family: 'SuisseIntl';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/SuisseIntl-Regular-WebM.woff2') format('woff2'), 
+}
 body {
   font: 17px/1.6 sans-serif;
   text-rendering: optimizeLegibility;
   padding: 2rem;
   max-width: 70ch;
   margin: 0 auto;
+  font-family:'SuisseWorks';
 }
 h1,h2,h3,h4,h5{
   font-size: inherit;
   font-weight: inherit;
   text-decoration: underline;
+  font-family: 'SuisseIntl';
 }
 header h1 {
   display: inline;
